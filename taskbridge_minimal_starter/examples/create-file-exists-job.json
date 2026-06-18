@@ -1,0 +1,9 @@
+{
+  "name": "check-go-mod-exists",
+  "type": "file_exists",
+  "payload": {
+    "path": "go.mod"
+  },
+  "timeout_seconds": 5,
+  "max_retries": 0
+}

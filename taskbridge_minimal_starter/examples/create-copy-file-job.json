@@ -1,0 +1,10 @@
+{
+  "name": "copy-readme",
+  "type": "copy_file",
+  "payload": {
+    "source": "README.md",
+    "destination": "/tmp/taskbridge-readme-copy.md"
+  },
+  "timeout_seconds": 10,
+  "max_retries": 0
+}

@@ -1,0 +1,9 @@
+{
+  "name": "checksum-go-mod",
+  "type": "checksum",
+  "payload": {
+    "path": "go.mod"
+  },
+  "timeout_seconds": 10,
+  "max_retries": 0
+}

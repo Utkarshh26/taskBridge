@@ -1,0 +1,10 @@
+{
+  "name": "check-local-tcp",
+  "type": "tcp_check",
+  "payload": {
+    "host": "127.0.0.1",
+    "port": 8080
+  },
+  "timeout_seconds": 10,
+  "max_retries": 1
+}
